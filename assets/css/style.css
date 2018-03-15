@@ -112,3 +112,27 @@ textarea {
     padding: 5px 0px 5px 0px;
     text-align: center;
  }
+
+ .img-title:default {
+     background-color: ##4aaaa5;
+ }
+
+ .img-title:active {
+    background-color: #ccc;
+}
+
+.img-title:hover {
+    background-color: #666666;
+}
+
+.img-title:focus {
+    background-color: #eee;
+    color: #666666;
+}
+
+ .grid-container {
+    display: grid;
+    grid-column-gap: 25px;
+    grid-row-gap: 50px;
+    grid-template-columns: auto auto auto;
+  }
